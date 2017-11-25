@@ -25,3 +25,29 @@ Setup
 Compiling and configuring Dimecoin-Qt from source on Ubuntu.
 
 https://www.youtube.com/watch?v=yW1-kSrQM10
+
+(
+if during compiling you get an error:
+alert.cpp:268:1: fatal error: opening dependency file obj/alert.d:
+No such file or directory compilation terminated.
+make: *** [obj/alert.o] Error 1
+
+please use command:
+
+mkdir obj
+
+and next:
+
+make -f makefile.unix "USE_UPNP=-"
+
+if you get later second error:
+g++: /coins7ex/dimecoin/src/leveldb/libmemenv.a: No such file or
+directory
+make: *** [dimecoind] Error 1
+
+please open leveldb and use command:
+
+make libleveldb.a libmemenv.a
+
+and go back to compiling.
+)
