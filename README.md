@@ -22,7 +22,7 @@ with each other, with the help of a P2P network to check for double-spending.
 Setup
 ---------------------
 
-Compiling and configuring Dimecoin-Qt from source on Ubuntu.
+Compiling and configuring linux Wallet Dimecoin-Qt or Dimecoind from source on Ubuntu.
 
 https://www.youtube.com/watch?v=yW1-kSrQM10
 
