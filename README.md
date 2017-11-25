@@ -49,5 +49,5 @@ please open leveldb and use command:
 
 make libleveldb.a libmemenv.a
 
-and go back to compiling.
+and go back to compiling
 )
